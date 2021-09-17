@@ -1,0 +1,110 @@
+body{
+    background-image: url(../tło.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:oblique;
+}
+.hint-box{
+    text-align: center;
+}
+.play-box{
+    width: 100%;
+    text-align: center;
+}
+.tutorial{
+    font-size: 35px;
+    color: white;
+}
+kbd {
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid bisque;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color:blue;
+    display:inline-block;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+.yellow{
+    color:yellow;
+    width: 10%;
+    height: 3vw;
+    background-color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    border: 0.2vw solid yellow;
+}
+.yellow:hover{
+    color: white;
+    border: 0.2vw solid white;
+}
+.orange{
+    color:orange;
+    width: 10%;
+    height: 3vw;
+    background-color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    border: 0.2vw solid orange;
+}
+.orange:hover{
+    color: white;
+    border: 0.2vw solid white;
+}
+.red{
+    color:red;
+    width: 10%;
+    height: 3vw;
+    background-color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    border: 0.2vw solid red;
+}
+.red:hover{
+    color: white;
+    border: 0.2vw solid white;
+}
+.green{
+    color:green;
+    width: 10%;
+    height: 3vw;
+    background-color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    border: 0.2vw solid green;
+}
+.green:hover{
+    color: white;
+    border: 0.2vw solid white;
+}
+.stop{
+    color:pink;
+    width: 41%;
+    height: 3vw;
+    background-color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    border: 0.2vw solid pink;
+}
+.stop:hover{
+    color: white;
+    border: 0.2vw solid white;
+}
+.record-line{
+    margin: 5px;
+}
+.play-line{
+    margin: 5px;
+}
+.stop-line{
+    margin: 5px;
+}
