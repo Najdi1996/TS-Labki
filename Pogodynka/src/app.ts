@@ -6,7 +6,7 @@ export class App {
     cityName: string;
     cities: string[] = [];
     cityWeather: Weather;
-    opwApiKey = '38b9db4de440d4358facd2e774de1a44';
+    opwApiKey = '7f48ec607e15c3267f8040604f8fe21f';
 
     constructor() {
         this.cityInput = document.querySelector('#city');

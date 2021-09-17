@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notekeep</title>
+    <link rel="icon" href="assets/post-it.png">
+  </head>
+  <body>
+    <header>
+      <h1>Notekeep</h1>
+    </header>
+
+    <section>
+        <div class="note-creator">
+          <input
+                id="noteTitle"
+                class="note-creator__title"
+                placeholder="Tytuł"
+                spellcheck="false"
+                type="text"
+          ></input>
+          <textarea
+                id="noteText"
+                class="note-creator__text"
+                placeholder="Utwórz notatkę..."
+                spellcheck="false"
+          ></textarea>
+          <div class="note-creator__options">
+            <button id="addBtn" class="note-creator__btn" type="submit">Dodaj</button>
+          </div>
+        </div>
+    </section>
+
+    <article>
+      <hr>
+      <h3 class="pinnedNotes-title">Pinned notes</h3>
+      <div id="pinnedNotes" class="pinnedNotes-container"></div>
+      <hr>
+      <div id="notes" class="notes-container">
+        <div class="spinner">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+      </div>
+    </article>
+
+    <script src="index.js"></script>
+  </body>
+</html>
